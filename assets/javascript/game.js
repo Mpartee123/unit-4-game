@@ -21,7 +21,7 @@ for (var i = 0; i < numberOptions.length; i++) {
     imageCrystal.addClass("crystal-image");
 
     // Each imageCrystal will be given a src link to the crystal image
-    imageCrystal.attr("src", "https://s-media-cache-ak0.pinimg.com/originals/ae/c0/03/aec00353526fc90862178b66aa42a4bc.jpg");
+    imageCrystal.attr("src", "./assets/images/crystal1.jpeg");
 
     // Each imageCrystal will be given a data attribute called data-crystalValue.
     // This data attribute will be set equal to the array value.

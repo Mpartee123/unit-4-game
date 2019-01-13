@@ -37,11 +37,12 @@ function makeCrystals(numberOptions) {
     for (var i = 0; i < numberOptions.length; i++) {
 
         // For each iteration, we will create an imageCrystal
-        var imageCrystal = $("<img>");
+        var imageCrystal = $("<img class='col-sm-6'>");
 
         // First each crystal will be given the class ".crystal-image".
         // This will allow the CSS to take effect.
-        imageCrystal.addClass("crystal-image");
+        imageCrystal.addClass("crystal-image m-5");
+
 
         // Each imageCrystal will be given a src link to the crystal image
         imageCrystal.attr("src", images[i]);
